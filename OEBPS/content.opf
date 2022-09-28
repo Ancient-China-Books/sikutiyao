@@ -12,7 +12,7 @@
     <dc:subject>古籍</dc:subject>
     <dc:subject>目錄學</dc:subject>
     <dc:language>zh</dc:language>
-    <dc:identifier opf:scheme="calibre">33fcabee-85bc-419b-902e-8fcf4cdb16d8</dc:identifier>
+    <dc:identifier opf:scheme="calibre">71d2b0b8-ea36-47b5-aa46-16116cc02dd6</dc:identifier>
     <meta content="解題書目" name="calibre:series"/>
     <meta content="10.0" name="calibre:rating"/>
     <meta content="1.9.10" name="Sigil version"/>
@@ -10519,6 +10519,7 @@
     <item id="css" href="Styles/stylesheet.css" media-type="text/css"/>
     <item href="OEBPS/cover.jpg" id="cover" media-type="image/jpeg"/>
     <item id="biaodian" href="Fonts/biaodian.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="fsung-2" href="Fonts/FSung-2.ttf" media-type="application/x-font-truetype"/>
     <item id="notos-sc" href="Fonts/NotoSerifSC-Medium.otf" media-type="application/vnd.ms-opentype"/>
     <item id="main.js" href="Styles/main.js" media-type="application/javascript"/>
   </manifest>

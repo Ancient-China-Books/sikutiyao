@@ -1,0 +1,59 @@
+name: make-epub
+
+on:
+  push:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install zip
+        run: sudo apt-get install -y zip
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: |
+          zip -r sikutiyao.epub META-INF mimetype OEBPS
+          sed -i 's/horizontal-tb/vertical-rl/g' OEBPS/Styles/*.css
+          sed -i 's/page-progression-direction="ltr"/page-progression-direction="rtl"/g' OEBPS/content.opf
+          zip -r sikutiyao-vst.epub META-INF mimetype OEBPS
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Snapshot build"
+          files: |
+            *.epub
+      - name: Sync to Google drive
+        uses: wei/rclone@v1
+        env:
+         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+         RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
+        with:
+          args: copyto sikutiyao.epub gdrive:/Ancient-China-Books/test/四庫提要.epub
+      - name: Sync vst to Google drive
+        uses: wei/rclone@v1
+        env:
+         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+         RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
+        with:
+          args: copyto sikutiyao-vst.epub gdrive:/Ancient-China-Books/test/四庫提要-豎排.epub
+      - name: Sync to Freemdict
+        uses: wei/rclone@v1
+        env:
+         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+         RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
+        with:
+          args: copyto sikutiyao.epub freemdict:/Ancient-China-Books/test/四庫提要.epub
+      - name: Sync vst to Freemdict
+        uses: wei/rclone@v1
+        env:
+         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+         RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
+        with:
+          args: copyto sikutiyao-vst.epub freemdict:/Ancient-China-Books/test/四庫提要-豎排.epub

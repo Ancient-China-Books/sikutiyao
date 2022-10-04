@@ -35,25 +35,25 @@ jobs:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto sikutiyao.epub gdrive:/Ancient-China-Books/四庫提要.epub
+          args: copyto sikutiyao.epub gdrive:/古籍共享电子书计划/四庫提要.epub
       - name: Sync vst to Google drive
         uses: wei/rclone@v1
         env:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto sikutiyao-vst.epub gdrive:/Ancient-China-Books/四庫提要-豎排.epub
+          args: copyto sikutiyao-vst.epub gdrive:/古籍共享电子书计划/四庫提要-豎排.epub
       - name: Sync to Onedrive
         uses: wei/rclone@v1
         env:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto sikutiyao.epub onedrive:/Ancient-China-Books/四庫提要.epub
+          args: copyto sikutiyao.epub onedrive:/古籍共享电子书计划/四庫提要.epub
       - name: Sync vst to Onedrive
         uses: wei/rclone@v1
         env:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto sikutiyao-vst.epub onedrive:/Ancient-China-Books/四庫提要-豎排.epub
+          args: copyto sikutiyao-vst.epub onedrive:/古籍共享电子书计划/四庫提要-豎排.epub

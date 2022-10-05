@@ -54,3 +54,8 @@ body {
   text-indent: 0;
   margin: 0;
 }
+.font-img {
+  border: 0;
+  vertical-align: middle;
+  height: 17.6px;
+}

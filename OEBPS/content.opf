@@ -10520,6 +10520,7 @@
     <item href="OEBPS/cover.jpg" id="cover" media-type="image/jpeg"/>
     <item id="biaodian" href="Fonts/biaodian.otf" media-type="application/vnd.ms-opentype"/>
     <item id="fsung-2" href="Fonts/FSung-2.ttf" media-type="application/x-font-truetype"/>
+    <item id="fsung-f" href="Fonts/FSung-F.ttf" media-type="application/x-font-truetype"/>
     <item id="notos-sc" href="Fonts/NotoSerifSC-Medium.otf" media-type="application/vnd.ms-opentype"/>
     <item id="main.js" href="Styles/main.js" media-type="application/javascript"/>
   </manifest>

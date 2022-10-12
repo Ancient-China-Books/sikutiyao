@@ -34850,7 +34850,7 @@
         </navPoint>
         <navPoint id="num_5831" playOrder="5831">
           <navLabel>
-            <text>誠齋揮塵錄 一卷</text>
+            <text>誠齋揮麈錄 一卷</text>
           </navLabel>
           <content src="Text/0266302.html"/>
         </navPoint>
@@ -39546,7 +39546,7 @@
         </navPoint>
         <navPoint id="num_6616" playOrder="6616">
           <navLabel>
-            <text>揮塵前錄 四卷 後錄 十一卷 第三錄 三卷 餘話 二卷</text>
+            <text>揮麈前錄 四卷 後錄 十一卷 第三錄 三卷 餘話 二卷</text>
           </navLabel>
           <content src="Text/0292101.html"/>
         </navPoint>

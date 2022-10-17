@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uxosaznxpA5dlgK27L4AiA5">
   <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <dc:title>四庫提要</dc:title>
-    <dc:creator opf:role="aut" opf:file-as="紀昀">紀昀</dc:creator>
+    <dc:creator opf:role="aut" opf:file-as="清·紀昀">清·紀昀</dc:creator>
     <dc:date>0101-01-01T00:00:00+00:00</dc:date>
     <dc:identifier id="uxosaznxpA5dlgK27L4AiA5" opf:scheme="uuid">uxosaznxpA5dlgK27L4AiA5</dc:identifier>
     <dc:description>&lt;div&gt;
@@ -11,13 +11,14 @@
     <dc:contributor opf:role="bkp">calibre (6.5.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:subject>古籍</dc:subject>
     <dc:subject>目錄學</dc:subject>
+    <dc:subject>浙本</dc:subject>
     <dc:language>zh</dc:language>
     <dc:identifier opf:scheme="calibre">71d2b0b8-ea36-47b5-aa46-16116cc02dd6</dc:identifier>
     <meta content="解題書目" name="calibre:series"/>
     <meta content="10.0" name="calibre:rating"/>
     <meta content="1.9.10" name="Sigil version"/>
     <meta name="calibre:title_sort" content="四庫提要"/>
-    <meta name="calibre:author_link_map" content="{&quot;紀昀&quot;: &quot;&quot;}"/>
+    <meta name="calibre:author_link_map" content="{&quot;清·紀昀&quot;: &quot;&quot;}"/>
     <meta name="calibre:series_index" content="1.0"/>
     <meta name="cover" content="cover"/>
   </metadata>

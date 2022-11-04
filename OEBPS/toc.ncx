@@ -23625,7 +23625,7 @@
         </navPoint>
         <navPoint id="num_3953" playOrder="3953">
           <navLabel>
-            <text>蔗山筆塵 一卷</text>
+            <text>蔗山筆麈 一卷</text>
           </navLabel>
           <content src="Text/0185002.html"/>
         </navPoint>
@@ -36956,7 +36956,7 @@
         </navPoint>
         <navPoint id="num_6183" playOrder="6183">
           <navLabel>
-            <text>資塵新聞 七卷</text>
+            <text>资麈新聞 七卷</text>
           </navLabel>
           <content src="Text/0275502.html"/>
         </navPoint>
@@ -44357,7 +44357,7 @@
         </navPoint>
         <navPoint id="num_7421" playOrder="7421">
           <navLabel>
-            <text>格齋 四六一卷</text>
+            <text>格齋四六 一卷</text>
           </navLabel>
           <content src="Text/0334201.html"/>
         </navPoint>

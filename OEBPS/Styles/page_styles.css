@@ -10,13 +10,6 @@
   font-stretch: normal;
 }
 @font-face {
-  src: url(../Fonts/biaodian.otf);
-  font-family: "biaodian";
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
   src: url(../Fonts/FSung-2.ttf);
   font-family: "FSung-2";
   font-weight: normal;

@@ -42334,7 +42334,7 @@
         </navPoint>
         <navPoint id="num_7082" playOrder="7082">
           <navLabel>
-            <text>蔡中郞集 六卷</text>
+            <text>蔡中郎集 六卷</text>
           </navLabel>
           <content src="Text/0310201.html"/>
         </navPoint>
@@ -49530,7 +49530,7 @@
         </navPoint>
         <navPoint id="num_8286" playOrder="8286">
           <navLabel>
-            <text>卞郞中詩集 七卷</text>
+            <text>卞郎中詩集 七卷</text>
           </navLabel>
           <content src="Text/0379501.html"/>
         </navPoint>
@@ -53294,7 +53294,7 @@
         </navPoint>
         <navPoint id="num_8914" playOrder="8914">
           <navLabel>
-            <text>袁中郞集 四十卷</text>
+            <text>袁中郎集 四十卷</text>
           </navLabel>
           <content src="Text/0395201.html"/>
         </navPoint>

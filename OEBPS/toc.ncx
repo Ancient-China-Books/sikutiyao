@@ -35670,7 +35670,7 @@
         </navPoint>
         <navPoint id="num_5968" playOrder="5968">
           <navLabel>
-            <text>介軒過筆 二卷</text>
+            <text>介軒遺筆 二卷</text>
           </navLabel>
           <content src="Text/0270203.html"/>
         </navPoint>
@@ -36316,7 +36316,7 @@
         </navPoint>
         <navPoint id="num_6076" playOrder="6076">
           <navLabel>
-            <text>閱古隨筆績 二卷</text>
+            <text>閱古隨筆續 二卷</text>
           </navLabel>
           <content src="Text/0273101.html"/>
         </navPoint>
@@ -36531,7 +36531,7 @@
         </navPoint>
         <navPoint id="num_6112" playOrder="6112">
           <navLabel>
-            <text>學古廷用篇 九十一條</text>
+            <text>學古適用篇 九十一條</text>
           </navLabel>
           <content src="Text/0274001.html"/>
         </navPoint>
@@ -36561,7 +36561,7 @@
         </navPoint>
         <navPoint id="num_6117" playOrder="6117">
           <navLabel>
-            <text>增定玉壼冰 二卷</text>
+            <text>增定玉壺冰 二卷</text>
           </navLabel>
           <content src="Text/0274102.html"/>
         </navPoint>
@@ -36597,7 +36597,7 @@
         </navPoint>
         <navPoint id="num_6123" playOrder="6123">
           <navLabel>
-            <text>元壼雜俎 八卷</text>
+            <text>元壺雜俎 八卷</text>
           </navLabel>
           <content src="Text/0274204.html"/>
         </navPoint>
@@ -36651,7 +36651,7 @@
         </navPoint>
         <navPoint id="num_6132" playOrder="6132">
           <navLabel>
-            <text>偶各紺珠 一卷</text>
+            <text>偶得紺珠 一卷</text>
           </navLabel>
           <content src="Text/0274404.html"/>
         </navPoint>
@@ -36831,7 +36831,7 @@
         </navPoint>
         <navPoint id="num_6162" playOrder="6162">
           <navLabel>
-            <text>今古銘鉤元 四十卷</text>
+            <text>今古鈎玄 四十卷</text>
           </navLabel>
           <content src="Text/0275101.html"/>
         </navPoint>
@@ -36980,7 +36980,7 @@
         </navPoint>
         <navPoint id="num_6187" playOrder="6187">
           <navLabel>
-            <text>寄園寄的寄 十一卷</text>
+            <text>寄園寄所寄 十一卷</text>
           </navLabel>
           <content src="Text/0275603.html"/>
         </navPoint>
@@ -37034,7 +37034,7 @@
         </navPoint>
         <navPoint id="num_6196" playOrder="6196">
           <navLabel>
-            <text>學仕在箴 五卷</text>
+            <text>學仕要箴 五卷</text>
           </navLabel>
           <content src="Text/0275803.html"/>
         </navPoint>
@@ -37070,7 +37070,7 @@
         </navPoint>
         <navPoint id="num_6202" playOrder="6202">
           <navLabel>
-            <text>考史類編 十卷</text>
+            <text>孝史類編 十卷</text>
           </navLabel>
           <content src="Text/0275904.html"/>
         </navPoint>
@@ -37219,7 +37219,7 @@
         </navPoint>
         <navPoint id="num_6227" playOrder="6227">
           <navLabel>
-            <text>邱陵學山 無卷數</text>
+            <text>丘陵學山 無卷數</text>
           </navLabel>
           <content src="Text/0276703.html"/>
         </navPoint>
@@ -37387,7 +37387,7 @@
         </navPoint>
         <navPoint id="num_6255" playOrder="6255">
           <navLabel>
-            <text>翰叢鈔 十四卷</text>
+            <text>翰苑叢鈔 十四卷</text>
           </navLabel>
           <content src="Text/0277603.html"/>
         </navPoint>
@@ -37608,7 +37608,7 @@
         </navPoint>
         <navPoint id="num_6292" playOrder="6292">
           <navLabel>
-            <text>事文類聚前 六十卷 後集 五十卷 續集 二十八卷 別集 三十二卷 新集 三十六卷 外集 十五卷 遺集 十五卷</text>
+            <text>事文類聚前集 六十卷 後集 五十卷 續集 二十八卷 別集 三十二卷 新集 三十六卷 外集 十五卷 遺集 十五卷</text>
           </navLabel>
           <content src="Text/0280001.html"/>
         </navPoint>
@@ -37727,7 +37727,7 @@
         </navPoint>
         <navPoint id="num_6312" playOrder="6312">
           <navLabel>
-            <text>荊州稗編 一百二十卷</text>
+            <text>荆川稗編 一百二十卷</text>
           </navLabel>
           <content src="Text/0281202.html"/>
         </navPoint>
@@ -39319,7 +39319,7 @@
         </navPoint>
         <navPoint id="num_6578" playOrder="6578">
           <navLabel>
-            <text>商唐近事 一卷</text>
+            <text>南唐近事 一卷</text>
           </navLabel>
           <content src="Text/0289701.html"/>
         </navPoint>
@@ -39445,7 +39445,7 @@
         </navPoint>
         <navPoint id="num_6599" playOrder="6599">
           <navLabel>
-            <text>玉壼野史 十卷</text>
+            <text>玉壺野史 十卷</text>
           </navLabel>
           <content src="Text/0291101.html"/>
         </navPoint>
@@ -39480,7 +39480,7 @@
         </navPoint>
         <navPoint id="num_6605" playOrder="6605">
           <navLabel>
-            <text>鐵圍川叢談 六卷</text>
+            <text>鐵圍山叢談 六卷</text>
           </navLabel>
           <content src="Text/0291302.html"/>
         </navPoint>
@@ -39534,7 +39534,7 @@
         </navPoint>
         <navPoint id="num_6614" playOrder="6614">
           <navLabel>
-            <text>堂齋漫錄 一卷</text>
+            <text>高齋漫錄 一卷</text>
           </navLabel>
           <content src="Text/0292001.html"/>
         </navPoint>
@@ -40546,7 +40546,7 @@
         </navPoint>
         <navPoint id="num_6783" playOrder="6783">
           <navLabel>
-            <text>過庭紀 餘三卷</text>
+            <text>過庭紀餘 三卷</text>
           </navLabel>
           <content src="Text/0299201.html"/>
         </navPoint>
@@ -41055,7 +41055,7 @@
         </navPoint>
         <navPoint id="num_6868" playOrder="6868">
           <navLabel>
-            <text>黎洲野乘 無卷數</text>
+            <text>梨洲野乘 無卷數</text>
           </navLabel>
           <content src="Text/0301302.html"/>
         </navPoint>
@@ -41133,7 +41133,7 @@
         <content src="Text/0301603.html"/>
         <navPoint id="num_6881" playOrder="6881">
           <navLabel>
-            <text>宏明集 十四卷</text>
+            <text>弘明集 十四卷</text>
           </navLabel>
           <content src="Text/0301604.html"/>
         </navPoint>
@@ -41187,7 +41187,7 @@
         </navPoint>
         <navPoint id="num_6890" playOrder="6890">
           <navLabel>
-            <text>正燈會元 二十卷</text>
+            <text>五燈會元 二十卷</text>
           </navLabel>
           <content src="Text/0302201.html"/>
         </navPoint>
@@ -41947,7 +41947,7 @@
         </navPoint>
         <navPoint id="num_7017" playOrder="7017">
           <navLabel>
-            <text>修眞捷經 九卷</text>
+            <text>修真捷徑 九卷</text>
           </navLabel>
           <content src="Text/0307803.html"/>
         </navPoint>
@@ -42037,7 +42037,7 @@
         </navPoint>
         <navPoint id="num_7032" playOrder="7032">
           <navLabel>
-            <text>諸眞元奧集成 九卷</text>
+            <text>諸真玄奧集成 九卷</text>
           </navLabel>
           <content src="Text/0308301.html"/>
         </navPoint>
@@ -42127,7 +42127,7 @@
         </navPoint>
         <navPoint id="num_7047" playOrder="7047">
           <navLabel>
-            <text>二六口課 一卷</text>
+            <text>二六功課 一卷</text>
           </navLabel>
           <content src="Text/0308605.html"/>
         </navPoint>
@@ -42233,7 +42233,7 @@
         </navPoint>
         <navPoint id="num_7065" playOrder="7065">
           <navLabel>
-            <text>楚辭協韻 十卷 讀騷大旨 一卷</text>
+            <text>楚騷協韻 十卷 讀騷大旨 一卷</text>
           </navLabel>
           <content src="Text/0309602.html"/>
         </navPoint>
@@ -42287,7 +42287,7 @@
         </navPoint>
         <navPoint id="num_7074" playOrder="7074">
           <navLabel>
-            <text>讀騷別論 一卷</text>
+            <text>讀騷列論 一卷</text>
           </navLabel>
           <content src="Text/0309903.html"/>
         </navPoint>
@@ -42877,7 +42877,7 @@
         </navPoint>
         <navPoint id="num_7173" playOrder="7173">
           <navLabel>
-            <text>黎岳集 一卷 附錄 一卷</text>
+            <text>梨岳集 一卷 附錄 一卷</text>
           </navLabel>
           <content src="Text/0316801.html"/>
         </navPoint>
@@ -43492,7 +43492,7 @@
         </navPoint>
         <navPoint id="num_7276" playOrder="7276">
           <navLabel>
-            <text>宛邱集 七十六卷</text>
+            <text>宛丘集 七十六卷</text>
           </navLabel>
           <content src="Text/0324301.html"/>
         </navPoint>
@@ -43516,7 +43516,7 @@
         </navPoint>
         <navPoint id="num_7280" playOrder="7280">
           <navLabel>
-            <text>實晉英光集 八卷</text>
+            <text>寶晉英光集 八卷</text>
           </navLabel>
           <content src="Text/0324601.html"/>
         </navPoint>
@@ -43880,7 +43880,7 @@
         </navPoint>
         <navPoint id="num_7341" playOrder="7341">
           <navLabel>
-            <text>檆溪居士 十二卷</text>
+            <text>檆溪居士集 十二卷</text>
           </navLabel>
           <content src="Text/0328902.html"/>
         </navPoint>
@@ -44339,7 +44339,7 @@
         </navPoint>
         <navPoint id="num_7418" playOrder="7418">
           <navLabel>
-            <text>綱山集 八卷</text>
+            <text>網山集 八卷</text>
           </navLabel>
           <content src="Text/0333902.html"/>
         </navPoint>
@@ -45908,7 +45908,7 @@
         </navPoint>
         <navPoint id="num_7681" playOrder="7681">
           <navLabel>
-            <text>惟實錄集 四卷 外集 一卷</text>
+            <text>惟實集 四卷 外集 一卷</text>
           </navLabel>
           <content src="Text/0350702.html"/>
         </navPoint>
@@ -46267,7 +46267,7 @@
         </navPoint>
         <navPoint id="num_7741" playOrder="7741">
           <navLabel>
-            <text>友石山人遣稾 一卷</text>
+            <text>友石山人遺稾 一卷</text>
           </navLabel>
           <content src="Text/0354501.html"/>
         </navPoint>
@@ -46411,7 +46411,7 @@
         </navPoint>
         <navPoint id="num_7765" playOrder="7765">
           <navLabel>
-            <text>玉仙璞稾 一卷</text>
+            <text>玉山璞稾 一卷</text>
           </navLabel>
           <content src="Text/0355801.html"/>
         </navPoint>
@@ -46902,7 +46902,7 @@
         </navPoint>
         <navPoint id="num_7847" playOrder="7847">
           <navLabel>
-            <text>榮陽外史集 七十卷</text>
+            <text>滎陽外史集 七十卷</text>
           </navLabel>
           <content src="Text/0360501.html"/>
         </navPoint>
@@ -46997,7 +46997,7 @@
         </navPoint>
         <navPoint id="num_7863" playOrder="7863">
           <navLabel>
-            <text>王合人詩集 五卷</text>
+            <text>王舍人詩集 五卷</text>
           </navLabel>
           <content src="Text/0361501.html"/>
         </navPoint>
@@ -47081,7 +47081,7 @@
         </navPoint>
         <navPoint id="num_7877" playOrder="7877">
           <navLabel>
-            <text>曹明川集 一卷</text>
+            <text>曹月川集 一卷</text>
           </navLabel>
           <content src="Text/0362201.html"/>
         </navPoint>
@@ -47165,7 +47165,7 @@
         </navPoint>
         <navPoint id="num_7891" playOrder="7891">
           <navLabel>
-            <text>靑風亭稾 七卷</text>
+            <text>清風亭稾 七卷</text>
           </navLabel>
           <content src="Text/0362901.html"/>
         </navPoint>
@@ -48619,7 +48619,7 @@
         </navPoint>
         <navPoint id="num_8134" playOrder="8134">
           <navLabel>
-            <text>分類試齋文膾後集 十二卷</text>
+            <text>分類誠齋文膾後集 十二卷</text>
           </navLabel>
           <content src="Text/0375203.html"/>
         </navPoint>
@@ -48979,7 +48979,7 @@
         </navPoint>
         <navPoint id="num_8194" playOrder="8194">
           <navLabel>
-            <text>九露山房遺稾 五卷</text>
+            <text>九靈山房遺稾 五卷</text>
           </navLabel>
           <content src="Text/0376903.html"/>
         </navPoint>
@@ -51622,7 +51622,7 @@
         </navPoint>
         <navPoint id="num_8635" playOrder="8635">
           <navLabel>
-            <text>己寬堂集 四卷</text>
+            <text>已寬堂集 四卷</text>
           </navLabel>
           <content src="Text/0388301.html"/>
         </navPoint>
@@ -51784,7 +51784,7 @@
         </navPoint>
         <navPoint id="num_8662" playOrder="8662">
           <navLabel>
-            <text>五鵠別集 二卷</text>
+            <text>五鵲別集 二卷</text>
           </navLabel>
           <content src="Text/0388904.html"/>
         </navPoint>
@@ -52880,7 +52880,7 @@
         </navPoint>
         <navPoint id="num_8845" playOrder="8845">
           <navLabel>
-            <text>汪禹又詩集 八卷</text>
+            <text>汪禹乂詩集 八卷</text>
           </navLabel>
           <content src="Text/0393503.html"/>
         </navPoint>
@@ -53779,7 +53779,7 @@
         </navPoint>
         <navPoint id="num_8995" playOrder="8995">
           <navLabel>
-            <text>黃元龐詩集 八卷 尺牘 二卷</text>
+            <text>黃元龍詩集 八卷 尺牘 二卷</text>
           </navLabel>
           <content src="Text/0396904.html"/>
         </navPoint>
@@ -53965,7 +53965,7 @@
         </navPoint>
         <navPoint id="num_9026" playOrder="9026">
           <navLabel>
-            <text>典澗遺稾 十五卷</text>
+            <text>曲澗遺稾 十五卷</text>
           </navLabel>
           <content src="Text/0397604.html"/>
         </navPoint>
@@ -55948,7 +55948,7 @@
         </navPoint>
         <navPoint id="num_9357" playOrder="9357">
           <navLabel>
-            <text>思復嘗集 十卷</text>
+            <text>思復堂集 十卷</text>
           </navLabel>
           <content src="Text/0405703.html"/>
         </navPoint>
@@ -56140,7 +56140,7 @@
         </navPoint>
         <navPoint id="num_9389" playOrder="9389">
           <navLabel>
-            <text>綺榭閣稾 一卷</text>
+            <text>綺樹閣稾 一卷</text>
           </navLabel>
           <content src="Text/0406502.html"/>
         </navPoint>
@@ -56188,7 +56188,7 @@
         </navPoint>
         <navPoint id="num_9397" playOrder="9397">
           <navLabel>
-            <text>林左堂詩集 六卷 詞 四卷 續集 三卷</text>
+            <text>杕左堂詩集 六卷 詞 四卷 續集 三卷</text>
           </navLabel>
           <content src="Text/0406605.html"/>
         </navPoint>
@@ -56248,7 +56248,7 @@
         </navPoint>
         <navPoint id="num_9407" playOrder="9407">
           <navLabel>
-            <text>善卷堂 六十四卷</text>
+            <text>善卷堂四六 十卷</text>
           </navLabel>
           <content src="Text/0406901.html"/>
         </navPoint>
@@ -56361,7 +56361,7 @@
         </navPoint>
         <navPoint id="num_9426" playOrder="9426">
           <navLabel>
-            <text>息盧詩 一卷</text>
+            <text>息廬詩 一卷</text>
           </navLabel>
           <content src="Text/0407303.html"/>
         </navPoint>
@@ -56781,7 +56781,7 @@
         </navPoint>
         <navPoint id="num_9496" playOrder="9496">
           <navLabel>
-            <text>錄蘿山房文集 二十四卷 詩集 三十三卷</text>
+            <text>綠蘿山房文集 二十四卷 詩集 三十三卷</text>
           </navLabel>
           <content src="Text/0408805.html"/>
         </navPoint>
@@ -56996,7 +56996,7 @@
         </navPoint>
         <navPoint id="num_9532" playOrder="9532">
           <navLabel>
-            <text>王己山文集 十卷 別集 四卷</text>
+            <text>王已山文集 十卷 別集 四卷</text>
           </navLabel>
           <content src="Text/0409601.html"/>
         </navPoint>
@@ -57524,7 +57524,7 @@
         </navPoint>
         <navPoint id="num_9620" playOrder="9620">
           <navLabel>
-            <text>緣杉野屋集 四卷</text>
+            <text>綠杉野屋集 四卷</text>
           </navLabel>
           <content src="Text/0411402.html"/>
         </navPoint>
@@ -58121,7 +58121,7 @@
         </navPoint>
         <navPoint id="num_9720" playOrder="9720">
           <navLabel>
-            <text>瀛奎律髓四 十九卷</text>
+            <text>瀛奎律髓 四十九卷</text>
           </navLabel>
           <content src="Text/0417301.html"/>
         </navPoint>
@@ -58157,7 +58157,7 @@
         </navPoint>
         <navPoint id="num_9726" playOrder="9726">
           <navLabel>
-            <text>圭塘款乃集 二卷</text>
+            <text>圭塘欸乃集 二卷</text>
           </navLabel>
           <content src="Text/0417602.html"/>
         </navPoint>
@@ -59521,7 +59521,7 @@
         </navPoint>
         <navPoint id="num_9954" playOrder="9954">
           <navLabel>
-            <text>二異人集 二十二卷</text>
+            <text>三異人集 二十二卷</text>
           </navLabel>
           <content src="Text/0427802.html"/>
         </navPoint>
@@ -60863,7 +60863,7 @@
         </navPoint>
         <navPoint id="num_10178" playOrder="10178">
           <navLabel>
-            <text>廷陵書塾合璧 四卷</text>
+            <text>延陵書塾合璧 四卷</text>
           </navLabel>
           <content src="Text/0433803.html"/>
         </navPoint>
@@ -61916,7 +61916,7 @@
         </navPoint>
         <navPoint id="num_10354" playOrder="10354">
           <navLabel>
-            <text>豔雪齋詩平 二卷 詞曲評 一卷</text>
+            <text>豔雪齋詩評 二卷 詞曲評 一卷</text>
           </navLabel>
           <content src="Text/0441301.html"/>
         </navPoint>

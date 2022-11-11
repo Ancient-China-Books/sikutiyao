@@ -41947,7 +41947,7 @@
         </navPoint>
         <navPoint id="num_7017" playOrder="7017">
           <navLabel>
-            <text>修真捷徑 九卷</text>
+            <text>修眞捷徑 九卷</text>
           </navLabel>
           <content src="Text/0307803.html"/>
         </navPoint>
@@ -42037,7 +42037,7 @@
         </navPoint>
         <navPoint id="num_7032" playOrder="7032">
           <navLabel>
-            <text>諸真玄奧集成 九卷</text>
+            <text>諸眞玄奧集成 九卷</text>
           </navLabel>
           <content src="Text/0308301.html"/>
         </navPoint>

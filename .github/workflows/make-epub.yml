@@ -21,3 +21,25 @@ jobs:
           sed -i 's/vertical-rl/horizontal-tb/g' OEBPS/Styles/*.css
           sed -i 's/page-progression-direction="rtl"/page-progression-direction="ltr"/g' OEBPS/content.opf
           zip -r sikutiyao.epub META-INF mimetype OEBPS
+
+      - name: Read release.md and use it as a body of new release
+        id: read_release
+        shell: bash
+        run: |
+          r=$(cat README.md)
+          r="${r//'%'/'%25'}"
+          r="${r//$'\n'/'%0A'}"
+          r="${r//$'\r'/'%0D'}"
+          echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
+
+      - name: Publishing to GitHub Releases
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.TOKEN }}
+          file: "*.epub"
+          tag: latest
+          file_glob: true
+          overwrite: true
+          make_latest: false
+          body: |
+            ${{ steps.read_release.outputs.RELEASE_BODY }} `*-vst` 代表竪排，`*.epub` 代表橫排。

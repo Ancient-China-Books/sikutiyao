@@ -1,11 +1,13 @@
 name: make-epub
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "master" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+permissions:
+  actions: write
+  contents: write
 
 jobs:
   build:
@@ -35,7 +37,7 @@ jobs:
       - name: Publishing to GitHub Releases
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: "*.epub"
           tag: latest
           file_glob: true

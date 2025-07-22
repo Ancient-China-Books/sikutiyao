@@ -93,5 +93,6 @@ When translating content for this project:
 6. **Source Preservation**: Never modify the original text (even if the original text contains errors; if there are questions or unclear parts, ask the user)
 7. **Paragraph Structure**: Do not modify the original paragraph formatting and structure
 8. **Blockquote Removal**: Before translating, if there are blockquote tags in the HTML, these tags should be removed and replaced with regular paragraph (`<p>`) tags
-9. **Jiazhu Exclusion**: Do not translate jiazhu (annotation) content marked with `class="jiazhu"`
-10. **Font Subsetting**: After translating HTML files, if `OEBPS/Fonts/NotoSerifSC-Medium.otf` exists, execute the following command to regenerate the subset font: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`
+9. **Translation Quality**: Think carefully and thoroughly when translating - consider context, meaning, and appropriate modern Chinese expressions
+10. **Jiazhu Exclusion**: Do not translate jiazhu (annotation) content marked with `class="jiazhu"`
+11. **Font Subsetting**: After translating HTML files, if `OEBPS/Fonts/NotoSerifSC-Medium.otf` exists, execute the following command to regenerate the subset font: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`

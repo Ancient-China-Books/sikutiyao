@@ -63,3 +63,9 @@ body {
   text-decoration: #777 wavy underline;
   text-decoration-thickness: 1px;
 }
+.translation {
+  color: #CC6600;
+  font-size: 85%;
+  font-weight: normal;
+  margin-top: 0.5em;
+}

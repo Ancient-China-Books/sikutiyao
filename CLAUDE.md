@@ -91,4 +91,6 @@ When translating content for this project:
 4. **Language Style**: Translations should use Simplified Chinese and pursue accuracy, faithfulness, and elegance (信达雅), conforming to modern Chinese conventions
 5. **Formatting**: Book titles, place names, and person names should use proper symbols, with consistent typography formatting
 6. **Source Preservation**: Never modify the original text (even if the original text contains errors; if there are questions or unclear parts, ask the user)
-7. **Font Subsetting**: After translating HTML files, if `OEBPS/Fonts/NotoSerifSC-Medium.otf` exists, execute the following command to regenerate the subset font: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`
+7. **Paragraph Structure**: Do not modify the original paragraph formatting and structure
+8. **Jiazhu Exclusion**: Do not translate jiazhu (annotation) content marked with `class="jiazhu"`
+9. **Font Subsetting**: After translating HTML files, if `OEBPS/Fonts/NotoSerifSC-Medium.otf` exists, execute the following command to regenerate the subset font: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`

@@ -95,15 +95,21 @@ When translating content for this project:
 8. **Blockquote Removal**: Before translating, if there are blockquote tags in the HTML, these tags should be removed and replaced with regular paragraph (`<p>`) tags
 9. **Translation Quality**: Think carefully and thoroughly when translating - consider context, meaning, and appropriate modern Chinese expressions
 10. **Jiazhu Exclusion**: Do not translate jiazhu (annotation) content marked with `class="jiazhu"`
-11. **Font Subsetting (MANDATORY)**: After translating any HTML files, you MUST ALWAYS execute the following command to regenerate the subset font: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`. This step is REQUIRED and must not be skipped. After running this command, commit the updated font file along with the translation.
+11. **Quality Control (MANDATORY)**: After completing the translation, you MUST perform a secondary review to verify that the original text and translation match properly. Check for:
+    - Accuracy of meaning and context
+    - Proper rendering of specialized terms and names
+    - Consistency with translation guidelines
+    - Any mismatched or missing content
+12. **Font Subsetting (MANDATORY)**: After translating any HTML files, you MUST ALWAYS execute the following command to regenerate the subset font: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`. This step is REQUIRED and must not be skipped. After running this command, commit the updated font file along with the translation.
 
 ## Translation Workflow (MUST FOLLOW)
 
 When asked to translate any HTML file:
 1. Translate the content following the guidelines above
-2. Commit the translated HTML file
-3. **IMMEDIATELY** run the font subsetting command: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`
-4. Commit the updated font file
-5. Push all changes to remote
+2. **MANDATORY**: Perform secondary review to verify original text and translation match properly
+3. Commit the translated HTML file
+4. **IMMEDIATELY** run the font subsetting command: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`
+5. Commit the updated font file
+6. Push all changes to remote
 
-**IMPORTANT**: The font subsetting step is NOT OPTIONAL and must be completed for every translation task.
+**IMPORTANT**: Both the quality control review and font subsetting steps are NOT OPTIONAL and must be completed for every translation task.

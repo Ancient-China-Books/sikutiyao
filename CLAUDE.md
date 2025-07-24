@@ -45,7 +45,7 @@ unzip -t sikutiyao.epub
 ## Content Architecture
 
 - **HTML Structure**: Each chapter is a separate HTML file with XHTML 1.1 formatting
-- **CSS Styling**: 
+- **CSS Styling**:
   - `stylesheet.css` - Main typography and layout styles
   - `page_styles.css` - Page-specific styling
   - Supports both vertical (traditional Chinese) and horizontal reading modes
@@ -85,6 +85,7 @@ When editing content:
 ## Translation Guidelines
 
 When translating content for this project:
+0. **HTML Structure**: Translation content should be added as an independent paragraph `<p class="translation">` immediately after the original paragraph, not included within the original paragraph's `<p>` tag
 1. **Translation Placement**: Translations should be placed paragraph by paragraph after each original paragraph, using orange/brown text color as shown in the reference image
 2. **Font Size**: Translation text should be one size smaller than the original text
 3. **Style Consistency**: Translation styles should be unified through CSS modifications in `OEBPS/Styles/` directory, with HTML files in `Text/` directory referencing these styles

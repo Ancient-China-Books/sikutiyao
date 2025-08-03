@@ -89,7 +89,7 @@ When translating content for this project:
 1. **Translation Placement**: Translations should be placed paragraph by paragraph after each original paragraph, using orange/brown text color as shown in the reference image
 2. **Font Size**: Translation text should be one size smaller than the original text
 3. **Style Consistency**: Translation styles should be unified through CSS modifications in `OEBPS/Styles/` directory, with HTML files in `Text/` directory referencing these styles
-4. **Language Style**: Translations should use Simplified Chinese and pursue accuracy, faithfulness, and elegance (信达雅), conforming to modern Chinese conventions. Use modern vernacular Chinese (现代白话文) and avoid mixing classical Chinese expressions
+4. **Language Style**: Translations should use Simplified Chinese and pursue accuracy, faithfulness, and elegance (信达雅), conforming to modern Chinese conventions. Use modern vernacular Chinese (现代白话文) and avoid mixing classical Chinese expressions. All translation text MUST be verified to be Simplified Chinese using `opencc -c t2s` command
 5. **Formatting**: Book titles, place names, and person names should use proper symbols, with consistent typography formatting
 6. **Source Preservation**: Never modify the original text (even if the original text contains errors; if there are questions or unclear parts, ask the user)
 7. **Paragraph Structure**: Do not modify the original paragraph formatting and structure
@@ -108,9 +108,10 @@ When translating content for this project:
 When asked to translate any HTML file:
 1. Translate the content following the guidelines above
 2. **MANDATORY**: Perform secondary review to verify original text and translation match properly
-3. Commit the translated HTML file
-4. **IMMEDIATELY** run the font subsetting command: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`
-5. Commit the updated font file
-6. Push all changes to remote
+3. **MANDATORY**: Verify all translation text is in Simplified Chinese using `opencc -c t2s`
+4. Commit the translated HTML file
+5. **IMMEDIATELY** run the font subsetting command: `cat OEBPS/Text/*.html | pyftsubset ~/.local/share/fonts/ttf/Noto/NotoSerifSC-Medium.ttf --text-file=/dev/stdin --output-file=OEBPS/Fonts/NotoSerifSC-Medium.otf`
+6. Commit the updated font file
+7. Push all changes to remote
 
-**IMPORTANT**: Both the quality control review and font subsetting steps are NOT OPTIONAL and must be completed for every translation task.
+**IMPORTANT**: The quality control review, Simplified Chinese verification, and font subsetting steps are NOT OPTIONAL and must be completed for every translation task.
